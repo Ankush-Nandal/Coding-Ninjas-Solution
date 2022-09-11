@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class AVerageMarks {
+public class Solution {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
        // System.out.println("Enter the Character not integer");
