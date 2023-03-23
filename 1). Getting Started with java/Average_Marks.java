@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Average_Marks {
+public class Average_Marks {                                  //change name according to the paltform example -> public class Solution {  }  / or public class Main{  }
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         char a = s.next().charAt(0); // take character from user
