@@ -1,5 +1,6 @@
-# Coding-Ninja-Solution
-  main point 
+# Coding-Ninja-Solution~
+
+  Important Note:
  make sure change class name according to the paltform name .
  for example 🦖  in coding ninja by default  class name is Solution or Main. 
  you have to change the name according to the platformn.
