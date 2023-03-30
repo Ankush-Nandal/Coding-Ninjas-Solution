@@ -1,4 +1,4 @@
-# Coding-Ninja-Solution~
+# Coding-Ninja-Solutions~
 
   Important Note:
  make sure change class name according to the paltform name .
