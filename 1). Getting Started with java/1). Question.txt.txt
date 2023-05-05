@@ -1,0 +1,108 @@
+                                                           *JAVA-Questions/Solution.*
+                                                           ____________________________
+                 
+*ANKUSH-(Listendude4@gmail.com)*
+---------------------------------------------------------------------------------------------------------------------------------------
+                                         1- *Size of long*
+                        
+Question-1). Primitive data type 'long' is having size _______ byte(s) in Java Programming.
+solution-1). 8
+
+Solution-Description:- the size of long is 8 bytes in java.
+________________________________________________________________________________________________________________________________________
+                                         2- *DataType*
+
+Question-2). Which of the following data type stores longest decimal number ?
+Solution-2). double
+
+Solution-Description:- Out of all given options, only float and double can hold decimal numbers. Size of the float is 4 bytes and double is 8 bytes (in most of the compilers, as the size of data types is compiler specific). So double can store bigger decimal numbers.
+________________________________________________________________________________________________________________________________________
+                                        3- *Boolean Variable*
+   
+Question-3). Which of these values can be assigned to a boolean variable in Java?
+Solution-3). True or false
+
+Solution-Description:- Boolean variable in java can only hold either true or false value.
+_________________________________________________________________________________________________________________________________________
+                                         4- *Valid Variable Name*
+
+Question-4). Which of these is a valid variable name ?
+Solution-4). var1
+
+Solution Description:- In java, you cannot start your variable name with numbers and also they cannot contain any other special character except underscore (_) and dollar ($).
+______________________________________________________________________________________________________________________________________
+                                          5- *Uninitialized Local Variable*
+
+Question-5). Compiler never assigns a default value to an uninitialized local variable in Java Programming. Whether this statement is true or false ?
+a).True
+b).False
+
+Correct Answer:-True
+
+Solution Description
+In java, its compulsory to initialise any local variable before using it because compiler don't assign any default/garbage value to variables.
+__________________________________________________________________________________________________________________________________________
+                                          6- *Predict the output*
+
+Question-6). What is the output of the following code if the input is : 5 10 ?
+              Scanner s = new Scanner(System.in);
+              int a = s.nextInt();
+              int b = s.nextInt();
+              System.out.println(a+b);
+(options)-
+a).5
+b).10
+c).15
+d).Error
+
+Correct Answer-15
+
+Solution Description:-
+"s.nextInt()" scans and returns the next token as int. A token is part of entered line that is separated from other tokens by space, tab or newline. So when input line is : “5 10”, then s.nextInt() returns the first token i.e. “5” as int and s.nextInt() again returns the next token i.e. “10” as int
+______________________________________________________________________________________________________________________________________________
+                                      7- *Predict The String output*
+
+Question-7). What is the output of the following code if the input string is "Coding Ninjas"?
+                             Scanner s = new Scanner(System.in);
+                             String str;
+                             str = s.next();
+                             System.out.print(str);
+Solution-7). Coding
+
+Solution Description:-
+"s.next()" returns the next token as String. A token is part of entered line that is separated from other tokens by space, tab or newline. So when input line is - “Coding Ninjas” then s.next() returns the first token i.e. “Coding”
+________________________________________________________________________________________________________________________________________________
+                                     8- *Multiple inputs*
+
+Question-8). What is the output of the following code if input is :
+                         10 abc def
+
+                         Scanner s = new Scanner(System.in);
+                         int a = s.nextInt();
+                         String str = s.next();
+                         System.out.print(a);
+                         System.out.println(str);
+Solution-8). 10abc
+
+Solution Description:-
+"s.nextInt()" scans and returns the next token as int. A token is part of entered line that is separated from other tokens by space, tab or newline. So when input line is - “10 abc def” then s.nextInt() returns the first token as int i.e. “10” and s.next() returns the next token "abc”. 
+While printing, in first statement a is printed and then str. There is no space or nextline between both print. Hence output is : 10abc.
+____________________________________________________________________________________________________________________________________________________
+                                  9- *Integer and String*
+
+Question-9). What is the output of the following code if input is : abc def 10
+
+                   Scanner s = new Scanner(System.in); 
+                   String str = s.next();
+                   int a = s.nextInt();
+                   System.out.print(str + " " + a);
+
+Solution-9). InputMismatchException
+
+Solution Description:-
+"s.next()" scans and returns the next token as String. A token is part of entered line that is separated from other tokens by space, tab or newline. So when input line is - “abc def 10” then s.next() returns the first token as String i.e. “abc” and s.nextInt() tries to convert the next token i.e. “def” into an int, which gives InputMismatchException.
+______________________________________________________________________________________________________________________________________________________ 
+
+
+                          Getting Start with Java - Completed here .                  
+Thank-you.                                                                                                                           *ANKUSH-(Listendude4@gmail.com)*
