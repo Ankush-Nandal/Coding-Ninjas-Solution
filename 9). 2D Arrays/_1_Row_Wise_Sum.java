@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class /* Row_Wise_Sum */ Solution {
+public class /* _1_Row_Wise_Sum */ Solution {
     // function to take 2-D input from user...
     public static int[][] takeInput() {
         Scanner s = new Scanner(System.in);
